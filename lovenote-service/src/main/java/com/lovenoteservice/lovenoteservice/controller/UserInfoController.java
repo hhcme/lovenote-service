@@ -27,4 +27,5 @@ public class UserInfoController {
         List<Map<String, Object>> list = jdbcTemplate.queryForList(sql);
         return list;
     }
+    /// 这个是从别的地方推上来的, 证明idea的github还是很好用的
 }
